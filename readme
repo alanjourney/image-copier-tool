@@ -1,16 +1,14 @@
 # Image Copier Tool - Learning Archive
 
-> 📚 **Archive Notice:** This is a learning project from my early days (2024).  
+> 📚 **Archive Notice:** This is a learning project from my early days (2024).
 > Kept for historical purposes. Check my pinned repositories for current work.
 
 ---
 
 ## Overview
-
 A Node.js utility that scans HTML and CSS files to detect image references and copies only the used images to a destination folder. Helps clean up unused assets from projects.
 
 ## Features
-
 - 🔍 Scans HTML files for `<img>` and `<source>` tags
 - 🎨 Parses CSS files for `background-image` properties
 - 📋 Copies only referenced images to target folder
@@ -18,7 +16,6 @@ A Node.js utility that scans HTML and CSS files to detect image references and c
 - 🗑️ Helps remove unused images from source folders
 
 ## Tech Stack
-
 - Node.js
 - Cheerio (HTML parsing)
 - fs (file system operations)
@@ -26,27 +23,20 @@ A Node.js utility that scans HTML and CSS files to detect image references and c
 
 ## Installation
 
-```bash
 npm install
-```
 
 ## Usage
-
 1. Open `main.js`
 2. Configure paths:
 
-```javascript
-const sourceDir = '../../portfolio/cat-energy/build/img';      // Source images
-const destinationDir = '../Images';                            // Destination (auto-created)
-const folderPathHTML = '../../portfolio/cat-energy/build';     // HTML files location
-const folderPathCSS = '../../portfolio/cat-energy/build/css';  // CSS files location
-```
+const sourceDir = '../../portfolio/cat-energy/build/img';
+const destinationDir = '../Images';
+const folderPathHTML = '../../portfolio/cat-energy/build';
+const folderPathCSS = '../../portfolio/cat-energy/build/css';
 
 3. Run:
 
-```bash
 node main.js
-```
 
 ---
 
