@@ -22,21 +22,24 @@ A Node.js utility that scans HTML and CSS files to detect image references and c
 - glob (file pattern matching)
 
 ## Installation
-
+```bash
 npm install
+```
 
 ## Usage
 1. Open `main.js`
 2. Configure paths:
-
+```javascript
 const sourceDir = '../../portfolio/cat-energy/build/img';
 const destinationDir = '../Images';
 const folderPathHTML = '../../portfolio/cat-energy/build';
 const folderPathCSS = '../../portfolio/cat-energy/build/css';
+```
 
 3. Run:
-
+```bash
 node main.js
+```
 
 ---
 
