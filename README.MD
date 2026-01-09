@@ -1,4 +1,4 @@
 # Image Copier Tool - Learning Archive
 
-> 📚 **Archive Notice:** This is a learning project from my early days (2024).
+> 📚 **Archive Notice:** This is a learning project from my early days (2023).
 > Kept for historical purposes. Check my pinned repositories for current work.
